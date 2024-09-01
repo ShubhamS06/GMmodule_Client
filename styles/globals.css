@@ -43,3 +43,7 @@ a.route {
 .text-main {
   color: var(--color-primary) !important;
 }
+
+.background-main {
+  background-color: var(--color-primary) !important;
+}

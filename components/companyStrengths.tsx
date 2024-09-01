@@ -34,7 +34,7 @@ const CompanyStrengths = ({ styles }: { styles: Record<string, string> }) => {
         <div className="col">
           {strengths.map((strength, index) => (
             <div key={index} className="font-24 mb-5">
-              <div className="bg-primary text-white fw-medium rounded-2 mb-3 ps-4 py-2 w-full">
+              <div className="background-main text-white fw-medium rounded-2 mb-3 ps-4 py-2 w-full">
                 {index + 1}. {strength.title}
               </div>
               <p className="font-lg">{strength.description}</p>

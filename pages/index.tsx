@@ -71,7 +71,7 @@ export default function Home() {
                   <h2 className="h2 mb-5">with Custom Molding Mastery</h2>
                   <a
                     href="#"
-                    className="font-2x btn bg-primary text-white fw-medium rounded-5 px-4"
+                    className="font-2x btn background-main text-white fw-medium rounded-5 px-4"
                   >
                     Checkout Now!
                   </a>
