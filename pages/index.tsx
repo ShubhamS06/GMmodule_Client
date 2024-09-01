@@ -47,7 +47,7 @@ export default function Home() {
                   href={route.path}
                   className={`${
                     route.primary
-                      ? "bg-primary text-white rounded-5 px-4 py-2"
+                      ? "bg-main text-white rounded-5 px-4 py-2"
                       : ""
                   } font-22 route cursor-pointer text-capitalize`}
                 >
@@ -65,7 +65,7 @@ export default function Home() {
             <div className="container">
               <div className="row align-items-center justify-content-around">
                 <div className="col-md-5">
-                  <h1 className="font-42 fw-bold text-primary mb-2">
+                  <h1 className="font-42 fw-bold text-main mb-2">
                     Empowering Industries
                   </h1>
                   <h2 className="h2 mb-5">with Custom Molding Mastery</h2>
