@@ -58,3 +58,21 @@
   background-color: var(--color-white);
   clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
 }
+
+@media screen and (max-width: 640px) {
+  .headingFancy1 {
+    font-size: calc(var(--font-size-base) * 1.75);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .headingFancy1 {
+    text-align: center;
+    font-size: calc(var(--font-size-base) * 1.5);
+  }
+
+  .headingFancy1::after,
+  .headingFancy1::before {
+    width: 3rem;
+  }
+}
