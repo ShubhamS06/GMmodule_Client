@@ -12,7 +12,7 @@ const Footer = () => {
                 <p className="mb-0 text-white fw-semibold">
                   Empowering Industries
                 </p>
-                <p className="mb-0 fw-medium">with Custom Molding Mastery</p>
+                <p className="mb-0 fw-medium font-22">with Custom Molding Mastery</p>
               </div>
             </div>
           </div>
@@ -20,22 +20,22 @@ const Footer = () => {
             <div className="mb-2 fw-bold">Quick Links:</div>
             <ul className="mb-0">
               <li>
-                <a href="#" className="text-black route">
+                <a href="#" className="text-black font-lg route">
                   About us
                 </a>
               </li>
               <li>
-                <a href="#" className="text-black route">
+                <a href="#" className="text-black font-lg route">
                   Our Services
                 </a>
               </li>
               <li>
-                <a href="#" className="text-black route">
+                <a href="#" className="text-black font-lg route">
                   Our Products
                 </a>
               </li>
               <li>
-                <a href="#" className="text-black route">
+                <a href="#" className="text-black font-lg route">
                   Contact us
                 </a>
               </li>
@@ -60,7 +60,7 @@ const Footer = () => {
             <div className="mb-2 fw-bold">Call us:</div>
             <p className="mb-0 d-flex align-items-center">
               <img src="/icons/phone-ringing.svg" width={40} className="me-2" />
-              <span className="">+91-99921-12056</span>
+              <span className="font-lg">+91-99921-12056</span>
             </p>
           </div>
         </div>

@@ -49,7 +49,7 @@ export default function Home() {
                     route.primary
                       ? "bg-primary text-white rounded-5 px-4 py-2"
                       : ""
-                  } font-24 route cursor-pointer text-capitalize`}
+                  } font-22 route cursor-pointer text-capitalize`}
                 >
                   {route.text}
                 </Link>
@@ -65,13 +65,13 @@ export default function Home() {
             <div className="container">
               <div className="row align-items-center justify-content-around">
                 <div className="col-md-5">
-                  <h1 className="font-42 fw-bold text-primary mb-3">
+                  <h1 className="font-42 fw-bold text-primary mb-2">
                     Empowering Industries
                   </h1>
                   <h2 className="h2 mb-5">with Custom Molding Mastery</h2>
                   <a
                     href="#"
-                    className="font-2x btn bg-primary text-white fw-semibold rounded-5 px-4"
+                    className="font-2x btn bg-primary text-white fw-medium rounded-5 px-4"
                   >
                     Checkout Now!
                   </a>
@@ -110,7 +110,7 @@ export default function Home() {
               <h2 className={`${styles.headingFancy2} mb-4`}>
                 Customer Satisfaction
               </h2>
-              <p className="font-22 lh-lg">
+              <p className="font-lg lh-lg">
                 At GM Modules, customer satisfaction is our top priority. We are
                 committed to providing exceptional service, transparent
                 communication, and reliable support to our clients every step of
@@ -126,10 +126,10 @@ export default function Home() {
           <section className="py-5 mb-5">
             <div className="container">
               <h2 className={`${styles.headingFancy1} mb-4`}>Contact us</h2>
-              <p className="font-24">
+              <p className="font-22">
                 Ready to discuss your plastic manufacturing needs?
               </p>
-              <p className="font-24">
+              <p className="font-lg">
                 Get in touch with us today to learn more about our services,
                 capabilities, and how we can help bring your projects to
                 fruition. We look forward to partnering with you for all your

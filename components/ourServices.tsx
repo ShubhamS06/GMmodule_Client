@@ -47,7 +47,7 @@ const OurServices = ({ styles }: { styles: Record<string, string> }) => {
                 key={index}
                 className={`${
                   selectedTabIndex === index ? "" : "opacity-50"
-                } border-0 col align-content-center w-fit fw-semibold font-22 text-white text-center py-3 bg-primary cursor-pointer`}
+                } border-0 col align-content-center w-fit fw-medium font-22 text-white text-center py-3 bg-primary cursor-pointer`}
                 onClick={() => setSelectedTabIndex(index)}
               >
                 {tab.heading}

@@ -33,5 +33,5 @@ a.route {
   --bs-btn-color: #fff;
   --bs-btn-bg: var(--color-primary);
   --bs-btn-border-color: var(--color-primary);
-  font-weight: 600;
+  font-weight: 500;
 }
