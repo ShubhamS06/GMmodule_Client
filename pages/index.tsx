@@ -7,7 +7,7 @@ import Link from "next/link";
 import Footer from "@/components/footer";
 import DifferentiatorsSection from "@/components/differentiatorsSection";
 import CompanyStrengths from "@/components/companyStrengths";
-import ContactForm from "@/components/contactForm";
+import MapMarker from "@/components/mapMarker";
 import OurServices from "@/components/ourServices";
 
 export default function Home() {
@@ -137,7 +137,7 @@ export default function Home() {
               </p>
             </div>
           </section>
-          <ContactForm />
+          <MapMarker />
         </main>
         <Footer />
       </div>
