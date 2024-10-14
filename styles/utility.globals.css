@@ -1,9 +1,17 @@
+.d-contents {
+    display: contents;
+}
+
 .bg-section-gredient {
     background: linear-gradient(99.85deg, #BA68C8 0%, rgba(186, 104, 200, 0) 100%);
 }
 
 .bg-section-gredient-low {
     background: linear-gradient(99.85deg, rgba(186, 104, 200, 0.71) 0%, rgba(186, 104, 200, 0) 100%);
+}
+
+.font-semibold {
+    font-weight: 500;
 }
 
 .font-lg {
