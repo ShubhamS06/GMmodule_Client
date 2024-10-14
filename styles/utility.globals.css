@@ -10,6 +10,10 @@
     background: linear-gradient(99.85deg, rgba(186, 104, 200, 0.71) 0%, rgba(186, 104, 200, 0) 100%);
 }
 
+.font-semibold {
+    font-weight: 500;
+}
+
 .font-lg {
     font-size: calc(var(--font-size-base) * 1.125);
 }
