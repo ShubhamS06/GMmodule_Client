@@ -52,8 +52,8 @@ const DifferentiatorsSection = ({
 
         <div className="col g-4 mt-5">
           {items.map((item, index) => (
-            <>
-              <div key={index} className="d-flex max-lg:flex-wrap gap-5 align-items-center">
+            <section key={index} className="d-contents">
+              <div className="d-flex max-lg:flex-wrap gap-5 align-items-center">
                 <div className="">
                   <img src={item.icon} width={340} className="text-main" />
                 </div>
@@ -79,7 +79,7 @@ const DifferentiatorsSection = ({
               {index != items.length - 1 && (
                 <hr className="border mt-4 mb-5 col-9 border-danger mx-auto border opacity-25" />
               )}
-            </>
+            </section>
           ))}
         </div>
       </div>

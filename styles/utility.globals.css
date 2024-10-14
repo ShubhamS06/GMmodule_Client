@@ -1,3 +1,7 @@
+.d-contents {
+    display: contents;
+}
+
 .bg-section-gredient {
     background: linear-gradient(99.85deg, #BA68C8 0%, rgba(186, 104, 200, 0) 100%);
 }
