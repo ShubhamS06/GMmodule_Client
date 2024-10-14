@@ -53,14 +53,14 @@ const DifferentiatorsSection = ({
         <div className="col g-4 mt-5">
           {items.map((item, index) => (
             <>
-              <div key={index} className="d-flex gap-5 align-items-center">
+              <div key={index} className="d-flex max-lg:flex-wrap gap-5 align-items-center">
                 <div className="">
-                  <img src={item.icon} width={340} className="text-primary" />
+                  <img src={item.icon} width={340} className="text-main" />
                 </div>
                 <div className="flex-1">
                   <h3 className="font-xl text-black">
                     <span
-                      className={`${styles.fontRibeyeMarrowRegular} font-36 text-primary`}
+                      className={`${styles.fontRibeyeMarrowRegular} font-36 text-main`}
                     >
                       {(index + 1).toString().padStart(2, "0")}.
                     </span>{" "}

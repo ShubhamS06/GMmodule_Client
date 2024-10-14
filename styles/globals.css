@@ -35,3 +35,15 @@ a.route {
   --bs-btn-border-color: var(--color-primary);
   font-weight: 500;
 }
+
+.bg-main {
+  background-color: var(--color-primary) !important;
+}
+
+.text-main {
+  color: var(--color-primary) !important;
+}
+
+.background-main {
+  background-color: var(--color-primary) !important;
+}
