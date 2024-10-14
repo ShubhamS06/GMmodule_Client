@@ -53,7 +53,7 @@ const DifferentiatorsSection = ({
         <div className="col g-4 mt-5">
           {items.map((item, index) => (
             <>
-              <div className="d-flex gap-5 align-items-center">
+              <div key={index} className="d-flex gap-5 align-items-center">
                 <div className="">
                   <img src={item.icon} width={340} className="text-primary" />
                 </div>
